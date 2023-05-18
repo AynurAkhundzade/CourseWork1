@@ -1,0 +1,213 @@
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    height: 50px;
+}
+.navbar .nav-items ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 22px;
+}
+.navbar .nav-items ul li {
+    text-decoration: none;
+    list-style: none;
+}
+.navbar .nav-items ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mainPart{
+margin: 0;
+}
+.firstPart{
+    width: 100%;
+    height: 605px;
+    background-image: url(../CourseWork/4241_c=\(0\,0\,800\,533\)_w=800_h=533_pjpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstPart h1,h2{
+    padding: 50px;
+    padding-left: 220px;
+    color: black;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.firstPart h2{
+    color: black;
+    font-size: 50px;
+    padding-left: 360px;
+}
+.secondPart{
+background-color: darkgray;
+width: 80%;
+height: 500px;
+margin: 70px 115px;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.secondPart .inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 90px;
+}
+.secondPart .inputs input{
+    width: 200px;
+    height: 25px;
+}
+.secondPart button{
+    width: 200px;
+    height: 40px;
+    margin: 0 380px;
+}
+.secondPart button:hover{
+    background-color: blue;
+    padding-bottom: 10px;
+}
+.thirdPart{
+    width: 100%;
+    height: 700px;
+    background-image: url(../CourseWork/toc-section-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.thirdPart .textPart{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    padding-top: 400px;
+    padding-left: 800px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 50px;
+}
+.footer .part1, .part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width:500px) {
+    body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      padding: 5px;
+        height: 85px;
+    }
+    .navbar .nav-items ul{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-top: 5px;
+        
+        
+    }
+ 
+    .firstPart{
+        width: 100%;
+        height: 605px;
+        background-image: url(4241_c=\(0\,0\,800\,533\)_w=800_h=533_pjpg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .firstPart h1,h2{
+        padding: 50px;
+        color: black;
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .firstPart h2{
+        color: black;
+        font-size: 30px;
+        padding: 20px 90px;
+        margin: 0;
+    }
+    .secondPart{
+    background-color: darkgray;
+    width: 80%;
+    height: 500px;
+    margin: 20px 40px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+    .secondPart .inputs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 50px;
+    }
+    .secondPart .inputs input{
+        width: 200px;
+        height: 25px;
+    }
+    .secondPart button{
+        width: 200px;
+        height: 40px;
+        margin: 0px 0px 20px 50px;
+        padding: 10px;
+    }
+    .secondPart button:hover{
+        background-color: blue;
+        padding-bottom: 10px;
+    }
+    .thirdPart{
+        width: 100%;
+        height: 700px;
+        background-image: url(toc-section-photo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    .thirdPart .textPart{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+       padding-top: 500px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 150px;
+        padding-top: 50px;
+    }
+    .footer .part1, .part2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
