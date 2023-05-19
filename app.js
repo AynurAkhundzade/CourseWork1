@@ -5,8 +5,8 @@ button.addEventListener('click', (event) => {
   event.preventDefault();
   const data = new FormData(form);
     
-  if(data.getAll){
-    alert(`${data.get('name')} ${data.get('surname')},  Your tickets are ready. You can get tickets from our shop`);
+  if(data.get('name')&& data.get('surname')&&data.get('destination')&&data.get('fromWhere')&&data.get('numberOfPeople')){
+    alert(`${data.get('name')}, ${data.get('surname')}  Your tickets are ready. You can get tickets from our shop`);
   }else{
     alert("Please enter your information right");
   }
